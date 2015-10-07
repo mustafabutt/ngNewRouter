@@ -103,4 +103,4 @@ Here you will make these three components on the same patren.
 <li>  });</li></ol></p>
 <p>about.html
 <p>Hello {{about.name}}!</p></p>
-
+<p>Now run the app and you will see the out put</p>
