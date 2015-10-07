@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+       
+        <title>My app</title>
+        <script src="./lib/angular.js"></script>
+        <script src="./lib/router.es5.js"></script>
+        <script src="app.js"></script>
+        <script src="./components/about/about.js"></script>
+        <script src="./components/home/home.js"></script>
+        <script src="./components/profile/profile.js"></script>
+    
+    </head>
+    <body ng-app="myApp" ng-controller="AppController as app">
+     <a ng-link="home">Home</a>
+     <a ng-link="profile({id:1})">Profile</a>
+        <div ng-viewport></div>
+
+
+
+    </body>
+</html>
